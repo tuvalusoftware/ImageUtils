@@ -86,6 +86,11 @@
 		1238F0781A577BAD00673C2B /* ZLSwipeableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EE2F561A4DF43B0073154C /* ZLSwipeableView.m */; };
 		1238F0791A577C0300673C2B /* SwipeCoverController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12EE2EE71A4DED6F0073154C /* SwipeCoverController.xib */; };
 		1238F07B1A577C9600673C2B /* screenshot3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1238F07A1A577C9600673C2B /* screenshot3.png */; };
+		125277C61B01B57600CECB1F /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125277C11B01B57600CECB1F /* Bolts.framework */; };
+		125277C71B01B57600CECB1F /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125277C21B01B57600CECB1F /* Parse.framework */; };
+		125277C81B01B57600CECB1F /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125277C31B01B57600CECB1F /* ParseCrashReporting.framework */; };
+		125277C91B01B57600CECB1F /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125277C41B01B57600CECB1F /* ParseFacebookUtils.framework */; };
+		125277CA1B01B57600CECB1F /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125277C51B01B57600CECB1F /* ParseUI.framework */; };
 		1258D20B1A54832C002A0B60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1258D20D1A54832C002A0B60 /* InfoPlist.strings */; };
 		1258D2101A54832D002A0B60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1258D2121A54832D002A0B60 /* InfoPlist.strings */; };
 		1258D2151A54832D002A0B60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1258D2171A54832D002A0B60 /* InfoPlist.strings */; };
@@ -875,6 +880,11 @@
 		1238F02C1A57545A00673C2B /* PickCrush2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickCrush2Tests.m; sourceTree = "<group>"; };
 		1238F06B1A577A2600673C2B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		1238F07A1A577C9600673C2B /* screenshot3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot3.png; sourceTree = "<group>"; };
+		125277C11B01B57600CECB1F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		125277C21B01B57600CECB1F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		125277C31B01B57600CECB1F /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		125277C41B01B57600CECB1F /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		125277C51B01B57600CECB1F /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		1258D2081A54832C002A0B60 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		1258D20C1A54832C002A0B60 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1258D2111A54832D002A0B60 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -926,11 +936,6 @@
 		1258D2741A548362002A0B60 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1258D2751A548362002A0B60 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1258D2771A548362002A0B60 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
-		1258D2781A55F857002A0B60 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../parse-library-1-2/Bolts.framework"; sourceTree = "<group>"; };
-		1258D2791A55F857002A0B60 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../parse-library-1-2/Parse.framework"; sourceTree = "<group>"; };
-		1258D27A1A55F857002A0B60 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseCrashReporting.framework; path = "../../parse-library-1-2/ParseCrashReporting.framework"; sourceTree = "<group>"; };
-		1258D27B1A55F857002A0B60 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = "../../parse-library-1-2/ParseFacebookUtils.framework"; sourceTree = "<group>"; };
-		1258D27C1A55F857002A0B60 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "../../parse-library-1-2/ParseUI.framework"; sourceTree = "<group>"; };
 		1258D2851A562C9E002A0B60 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1258D2861A562C9E002A0B60 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1258D2881A56323C002A0B60 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -1175,6 +1180,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				125277C71B01B57600CECB1F /* Parse.framework in Frameworks */,
+				125277C81B01B57600CECB1F /* ParseCrashReporting.framework in Frameworks */,
+				125277CA1B01B57600CECB1F /* ParseUI.framework in Frameworks */,
+				125277C91B01B57600CECB1F /* ParseFacebookUtils.framework in Frameworks */,
+				125277C61B01B57600CECB1F /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1306,6 +1316,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		125277C01B01B57600CECB1F /* parse-library */ = {
+			isa = PBXGroup;
+			children = (
+				125277C11B01B57600CECB1F /* Bolts.framework */,
+				125277C21B01B57600CECB1F /* Parse.framework */,
+				125277C31B01B57600CECB1F /* ParseCrashReporting.framework */,
+				125277C41B01B57600CECB1F /* ParseFacebookUtils.framework */,
+				125277C51B01B57600CECB1F /* ParseUI.framework */,
+			);
+			name = "parse-library";
+			path = "SwipeViews/parse-library";
+			sourceTree = "<group>";
+		};
 		1258D29D1A5717E0002A0B60 /* photopermissions */ = {
 			isa = PBXGroup;
 			children = (
@@ -1321,14 +1344,10 @@
 				12DC756E1B01AC6D0047FFF3 /* libOpanCVContrib.a */,
 				12DC756C1B01AC550047FFF3 /* libImageProcessing.a */,
 				12DC756A1B01AC260047FFF3 /* opencv2.framework */,
-				1258D2781A55F857002A0B60 /* Bolts.framework */,
-				1258D2791A55F857002A0B60 /* Parse.framework */,
-				1258D27A1A55F857002A0B60 /* ParseCrashReporting.framework */,
-				1258D27B1A55F857002A0B60 /* ParseFacebookUtils.framework */,
-				1258D27C1A55F857002A0B60 /* ParseUI.framework */,
 				1258D2731A548362002A0B60 /* Localizable.strings */,
 				12EE34441A53AC480073154C /* libc++.dylib */,
 				121139751B01B20300083190 /* UIColor+BFPaperColors.h */,
+				125277C01B01B57600CECB1F /* parse-library */,
 				121139761B01B20300083190 /* UIColor+BFPaperColors.m */,
 				12EE343B1A53A5100073154C /* opencv2.framework */,
 				12EE2EAD1A4DEBFB0073154C /* SwipeViews */,
@@ -3851,6 +3870,7 @@
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SwipeViews-bceclytyrhjsrddtejevjpjfwnwg/Build/Products/Debug-iphoneos",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ComputerVision-bnooazbacpictmdpzfapoovegtac/Build/Products/Debug-iphoneuniversal",
+					"$(PROJECT_DIR)/SwipeViews/parse-library",
 				);
 				INFOPLIST_FILE = SwipeViews/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -3877,6 +3897,7 @@
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SwipeViews-bceclytyrhjsrddtejevjpjfwnwg/Build/Products/Debug-iphoneos",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ComputerVision-bnooazbacpictmdpzfapoovegtac/Build/Products/Debug-iphoneuniversal",
+					"$(PROJECT_DIR)/SwipeViews/parse-library",
 				);
 				INFOPLIST_FILE = SwipeViews/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
