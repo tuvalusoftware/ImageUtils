@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TVSSwipeViewControllerYear">
+            <connections>
+                <outlet property="leftBtn" destination="btg-wh-De7" id="cn3-6U-ahW"/>
+                <outlet property="rightBtn" destination="jIK-2S-uDy" id="Fcg-tA-rJg"/>
+                <outlet property="swipeableView" destination="acH-Ol-Cfb" id="RpD-NI-Ikv"/>
+                <outlet property="view" destination="iN0-l3-epB" id="ceo-SB-muO"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OfY-Rt-G6t">
+                    <rect key="frame" x="19" y="25" width="43" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="43" id="0pM-3Q-ZKT"/>
+                        <constraint firstAttribute="width" constant="43" id="QB4-G8-SmC"/>
+                        <constraint firstAttribute="height" constant="20" id="wrK-xd-HXe"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
+                    <state key="normal" title="home">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="0pM-3Q-ZKT"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="home:" destination="-1" eventType="touchUpInside" id="Lxu-vm-YYw"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="btg-wh-De7">
+                    <rect key="frame" x="52" y="516" width="142" height="74"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" priority="750" constant="74" id="Eg1-vv-yMS"/>
+                        <constraint firstAttribute="width" constant="142" id="Sr4-RX-0Ad"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="22"/>
+                    <state key="normal" title="Select">
+                        <color key="titleColor" red="0.21176470589999999" green="0.80392156859999997" blue="0.99215686270000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="leftBtnPressed:" destination="-1" eventType="touchUpInside" id="vhA-A7-3EH"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zv7-JQ-bE1">
+                    <rect key="frame" x="302" y="25" width="50" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="5vV-S7-S72"/>
+                        <constraint firstAttribute="width" constant="50" id="zfL-pI-oGr"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
+                    <state key="normal" title="refresh">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="reload:" destination="-1" eventType="touchUpInside" id="8ve-Eb-8N6"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jIK-2S-uDy">
+                    <rect key="frame" x="196" y="516" width="127" height="74"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" priority="750" constant="74" id="hG4-G9-xIw"/>
+                        <constraint firstAttribute="width" constant="127" id="yWC-8G-ymL"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="22"/>
+                    <state key="normal" title="Next">
+                        <color key="titleColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="rightButtenPressed:" destination="-1" eventType="touchUpInside" id="Avt-Pd-ioj"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="acH-Ol-Cfb" customClass="ZLSwipeableView">
+                    <rect key="frame" x="52" y="132" width="271" height="360"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="360" id="W31-vG-lLu"/>
+                        <constraint firstAttribute="width" constant="271" id="bJD-12-zCt"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.21176470588235294" green="0.80392156862745101" blue="0.99215686274509807" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="jIK-2S-uDy" firstAttribute="trailing" secondItem="acH-Ol-Cfb" secondAttribute="trailing" id="6Xs-tu-rIO"/>
+                <constraint firstItem="zv7-JQ-bE1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="25" id="BNr-fz-lQL"/>
+                <constraint firstItem="jIK-2S-uDy" firstAttribute="top" secondItem="acH-Ol-Cfb" secondAttribute="bottom" priority="750" constant="24" id="FsE-UK-Pw1"/>
+                <constraint firstItem="acH-Ol-Cfb" firstAttribute="top" relation="greaterThanOrEqual" secondItem="OfY-Rt-G6t" secondAttribute="bottom" constant="5" id="It7-ha-UHr"/>
+                <constraint firstItem="OfY-Rt-G6t" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="19" id="NCc-Fh-nlr"/>
+                <constraint firstItem="btg-wh-De7" firstAttribute="top" secondItem="acH-Ol-Cfb" secondAttribute="bottom" priority="750" constant="24" id="OcT-2s-r7m"/>
+                <constraint firstItem="acH-Ol-Cfb" firstAttribute="top" relation="greaterThanOrEqual" secondItem="zv7-JQ-bE1" secondAttribute="bottom" constant="5" id="Q9q-Gy-d4H"/>
+                <constraint firstAttribute="trailing" secondItem="zv7-JQ-bE1" secondAttribute="trailing" constant="23" id="QTc-Ql-mLN"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="jIK-2S-uDy" secondAttribute="bottom" constant="8" id="W8e-h7-zyy"/>
+                <constraint firstItem="OfY-Rt-G6t" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="25" id="e4P-Kc-gwo"/>
+                <constraint firstAttribute="centerY" secondItem="acH-Ol-Cfb" secondAttribute="centerY" priority="750" constant="21" id="ekq-fg-hjV"/>
+                <constraint firstItem="btg-wh-De7" firstAttribute="leading" secondItem="acH-Ol-Cfb" secondAttribute="leading" id="euQ-XF-LCL"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="btg-wh-De7" secondAttribute="bottom" constant="8" id="fMP-Od-hbd"/>
+                <constraint firstAttribute="centerX" secondItem="acH-Ol-Cfb" secondAttribute="centerX" id="tBQ-9j-wqF"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="-760" y="159"/>
+        </view>
+    </objects>
+</document>

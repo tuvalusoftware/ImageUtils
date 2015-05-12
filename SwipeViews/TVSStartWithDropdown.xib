@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TVSStartFavorite">
+            <connections>
+                <outlet property="descriptionLabel" destination="Qe4-Un-TV4" id="0KI-eO-bnV"/>
+                <outlet property="startBtn" destination="hXR-WH-YxI" id="ttB-60-gec"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hXR-WH-YxI">
+                    <rect key="frame" x="25" y="247" width="271" height="74"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="271" id="Ch3-NG-viw"/>
+                        <constraint firstAttribute="height" constant="74" id="vTY-lA-fza"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="30"/>
+                    <state key="normal" title="dummy">
+                        <color key="titleColor" red="0.21176470589999999" green="0.80392156859999997" blue="0.99215686270000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="startButton:" destination="-1" eventType="touchUpInside" id="Tkd-LP-qya"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Favorite Your Best Photos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qe4-Un-TV4">
+                    <rect key="frame" x="34.5" y="132" width="252" height="37"/>
+                    <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="23"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.21176470589999999" green="0.80392156859999997" blue="0.99215686270000003" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="Qe4-Un-TV4" secondAttribute="centerX" id="C8W-JN-Iu9"/>
+                <constraint firstAttribute="centerX" secondItem="hXR-WH-YxI" secondAttribute="centerX" id="SXq-xk-L6U"/>
+                <constraint firstItem="hXR-WH-YxI" firstAttribute="top" secondItem="Qe4-Un-TV4" secondAttribute="bottom" constant="78" id="TmO-XK-H4m"/>
+                <constraint firstAttribute="centerY" secondItem="hXR-WH-YxI" secondAttribute="centerY" id="yeI-jL-gJ1"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="363" y="203"/>
+        </view>
+    </objects>
+</document>

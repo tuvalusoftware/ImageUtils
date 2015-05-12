@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SwipPickControllerConfirm">
+            <connections>
+                <outlet property="btnLeft" destination="byq-Rd-NYQ" id="mpW-ax-PRt"/>
+                <outlet property="btnRight" destination="rwX-yD-6Mx" id="a6t-vw-kMJ"/>
+                <outlet property="swipeableView" destination="acH-Ol-Cfb" id="RpD-NI-Ikv"/>
+                <outlet property="view" destination="iN0-l3-epB" id="ceo-SB-muO"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="acH-Ol-Cfb" customClass="ZLSwipeableView">
+                    <rect key="frame" x="25" y="43" width="271" height="360"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Sq-Dr-q3Y">
+                            <rect key="frame" x="25" y="491" width="142" height="54"/>
+                            <state key="normal" title="Button">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="271" id="UMV-wK-8zg"/>
+                        <constraint firstAttribute="height" constant="360" id="vQ0-mr-DqB"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="byq-Rd-NYQ">
+                    <rect key="frame" x="25" y="424" width="142" height="48"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="142" id="YHM-8Q-Frg"/>
+                        <constraint firstAttribute="height" priority="750" constant="74" id="v8g-zb-1xg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="22"/>
+                    <state key="normal" title="Button">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnPressedLeft:" destination="-1" eventType="touchUpInside" id="yr1-Bc-uK9"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rwX-yD-6Mx">
+                    <rect key="frame" x="169" y="424" width="127" height="48"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="127" id="1eE-jK-k8L"/>
+                        <constraint firstAttribute="height" priority="750" constant="74" id="XYh-n7-BuU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="22"/>
+                    <state key="normal" title="Button">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnPressedRight:" destination="-1" eventType="touchUpInside" id="MM3-m6-NZU"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.21176470589999999" green="0.80392156859999997" blue="0.99215686270000003" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="tintColor" red="0.21176470589999999" green="0.80392156859999997" blue="0.99215686270000003" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="acH-Ol-Cfb" secondAttribute="centerX" id="FES-h5-7U8"/>
+                <constraint firstAttribute="centerY" secondItem="acH-Ol-Cfb" secondAttribute="centerY" constant="17" id="JCl-hD-uFP"/>
+                <constraint firstItem="byq-Rd-NYQ" firstAttribute="leading" secondItem="acH-Ol-Cfb" secondAttribute="leading" priority="750" id="SZO-yk-GN7"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="rwX-yD-6Mx" secondAttribute="bottom" constant="8" id="U7x-yn-r1h"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="byq-Rd-NYQ" secondAttribute="bottom" constant="8" id="aNg-qs-wxB"/>
+                <constraint firstItem="rwX-yD-6Mx" firstAttribute="top" secondItem="acH-Ol-Cfb" secondAttribute="bottom" priority="750" constant="24" id="khR-yd-vx2"/>
+                <constraint firstItem="rwX-yD-6Mx" firstAttribute="trailing" secondItem="acH-Ol-Cfb" secondAttribute="trailing" id="nXq-Zz-eli"/>
+                <constraint firstItem="byq-Rd-NYQ" firstAttribute="top" secondItem="acH-Ol-Cfb" secondAttribute="bottom" priority="750" constant="24" id="pmd-qQ-FtQ"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>
