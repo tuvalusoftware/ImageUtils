@@ -7,8 +7,7 @@
 //
 #import "StringConstants.h"
 #import "UIColor+JFMinimalNotificationColors.h"
-#import "UIColor+BFPaperColors.h"
-#ifndef SwipeViews_Configs_h
+ #ifndef SwipeViews_Configs_h
 #define SwipeViews_Configs_h
 
 

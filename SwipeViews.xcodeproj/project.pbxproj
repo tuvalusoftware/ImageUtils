@@ -113,6 +113,8 @@
 		1258D2A31A571815002A0B60 /* ViewPermissionControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1258D29F1A571815002A0B60 /* ViewPermissionControllerBase.m */; };
 		1258D2A41A571815002A0B60 /* ViewPermissionControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1258D29F1A571815002A0B60 /* ViewPermissionControllerBase.m */; };
 		1258D2A51A571815002A0B60 /* ViewPermissionControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1258D29F1A571815002A0B60 /* ViewPermissionControllerBase.m */; };
+		12DC756B1B01AC260047FFF3 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12DC756A1B01AC260047FFF3 /* opencv2.framework */; };
+		12DC756D1B01AC550047FFF3 /* libImageProcessing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12DC756C1B01AC550047FFF3 /* libImageProcessing.a */; };
 		12EE2EB11A4DEBFB0073154C /* SwipeViews.h in Headers */ = {isa = PBXBuildFile; fileRef = 12EE2EB01A4DEBFB0073154C /* SwipeViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		12EE2EB71A4DEBFB0073154C /* SwipeViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EE2EAB1A4DEBFB0073154C /* SwipeViews.framework */; };
 		12EE2EBE1A4DEBFB0073154C /* SwipeViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EE2EBD1A4DEBFB0073154C /* SwipeViewsTests.m */; };
@@ -679,9 +681,6 @@
 		12EE33601A537D3F0073154C /* UIColor+JFMinimalNotificationColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EE335B1A537D3F0073154C /* UIColor+JFMinimalNotificationColors.m */; };
 		12EE33611A537D3F0073154C /* UIColor+JFMinimalNotificationColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EE335B1A537D3F0073154C /* UIColor+JFMinimalNotificationColors.m */; };
 		12EE33621A537D3F0073154C /* UIColor+JFMinimalNotificationColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EE335B1A537D3F0073154C /* UIColor+JFMinimalNotificationColors.m */; };
-		12EE343C1A53A5100073154C /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EE343B1A53A5100073154C /* opencv2.framework */; };
-		12EE343E1A53A5B00073154C /* libImageProcessing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EE343D1A53A5B00073154C /* libImageProcessing.a */; };
-		12EE343F1A53A5B00073154C /* libImageProcessing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EE343D1A53A5B00073154C /* libImageProcessing.a */; };
 		12EE34411A53A5FD0073154C /* ImageProcessing.h in Headers */ = {isa = PBXBuildFile; fileRef = 12EE34401A53A5FD0073154C /* ImageProcessing.h */; };
 		12EE34451A53AC480073154C /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EE34441A53AC480073154C /* libc++.dylib */; };
 		12EE344C1A53B1480073154C /* ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 12EE344A1A53B1480073154C /* ViewController.h */; };
@@ -931,6 +930,9 @@
 		1258D29A1A565E0F002A0B60 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1258D29E1A571815002A0B60 /* ViewPermissionControllerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewPermissionControllerBase.h; sourceTree = "<group>"; };
 		1258D29F1A571815002A0B60 /* ViewPermissionControllerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewPermissionControllerBase.m; sourceTree = "<group>"; };
+		12DC756A1B01AC260047FFF3 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = Libraries/opencv2.framework; sourceTree = "<group>"; };
+		12DC756C1B01AC550047FFF3 /* libImageProcessing.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libImageProcessing.a; path = Libraries/opencvlib/libImageProcessing.a; sourceTree = "<group>"; };
+		12DC756E1B01AC6D0047FFF3 /* libOpanCVContrib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOpanCVContrib.a; path = Libraries/opencvlib/libOpanCVContrib.a; sourceTree = "<group>"; };
 		12EE2EAB1A4DEBFB0073154C /* SwipeViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwipeViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12EE2EAF1A4DEBFB0073154C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12EE2EB01A4DEBFB0073154C /* SwipeViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeViews.h; sourceTree = "<group>"; };
@@ -1129,9 +1131,7 @@
 		12EE33491A5364190073154C /* CrushControllerFinish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrushControllerFinish.m; sourceTree = "<group>"; };
 		12EE335A1A537D3F0073154C /* UIColor+JFMinimalNotificationColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JFMinimalNotificationColors.h"; sourceTree = "<group>"; };
 		12EE335B1A537D3F0073154C /* UIColor+JFMinimalNotificationColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JFMinimalNotificationColors.m"; sourceTree = "<group>"; };
-		12EE34311A53A2D90073154C /* libImageProcessing.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libImageProcessing.a; path = "../../../Library/Developer/Xcode/DerivedData/ImageProcessing-bgilinsewqitqlgbamvpdnmqvpiq/Build/Products/Release-iphoneos/libImageProcessing.a"; sourceTree = "<group>"; };
 		12EE343B1A53A5100073154C /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../Libraries/opencv2.framework; sourceTree = "<group>"; };
-		12EE343D1A53A5B00073154C /* libImageProcessing.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libImageProcessing.a; path = "../../../Library/Developer/Xcode/DerivedData/ImageProcessing-bgilinsewqitqlgbamvpdnmqvpiq/Build/Products/Release-iphoneos/libImageProcessing.a"; sourceTree = "<group>"; };
 		12EE34401A53A5FD0073154C /* ImageProcessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageProcessing.h; sourceTree = "<group>"; };
 		12EE34441A53AC480073154C /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		12EE344A1A53B1480073154C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -1166,7 +1166,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12EE343E1A53A5B00073154C /* libImageProcessing.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1196,9 +1195,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12DC756D1B01AC550047FFF3 /* libImageProcessing.a in Frameworks */,
+				12DC756B1B01AC260047FFF3 /* opencv2.framework in Frameworks */,
 				12EE34451A53AC480073154C /* libc++.dylib in Frameworks */,
-				12EE343F1A53A5B00073154C /* libImageProcessing.a in Frameworks */,
-				12EE343C1A53A5100073154C /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1310,6 +1309,9 @@
 		12EE2EA11A4DEBFB0073154C = {
 			isa = PBXGroup;
 			children = (
+				12DC756E1B01AC6D0047FFF3 /* libOpanCVContrib.a */,
+				12DC756C1B01AC550047FFF3 /* libImageProcessing.a */,
+				12DC756A1B01AC260047FFF3 /* opencv2.framework */,
 				1258D2781A55F857002A0B60 /* Bolts.framework */,
 				1258D2791A55F857002A0B60 /* Parse.framework */,
 				1258D27A1A55F857002A0B60 /* ParseCrashReporting.framework */,
@@ -1317,9 +1319,7 @@
 				1258D27C1A55F857002A0B60 /* ParseUI.framework */,
 				1258D2731A548362002A0B60 /* Localizable.strings */,
 				12EE34441A53AC480073154C /* libc++.dylib */,
-				12EE343D1A53A5B00073154C /* libImageProcessing.a */,
 				12EE343B1A53A5100073154C /* opencv2.framework */,
-				12EE34311A53A2D90073154C /* libImageProcessing.a */,
 				12EE2EAD1A4DEBFB0073154C /* SwipeViews */,
 				12EE2EBA1A4DEBFB0073154C /* SwipeViewsTests */,
 				12EE303A1A4E78A50073154C /* iCurate Crush */,
@@ -3979,10 +3979,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ComputerVision-bnooazbacpictmdpzfapoovegtac/Build/Products/Debug-iphoneuniversal",
-					/Users/touchroi/Downloads,
-					/Users/touchroi/Downloads/Active/Libraries,
-					"/Users/touchroi/Downloads/parse-library-1-2",
+					"$(PROJECT_DIR)/Libraries",
 				);
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -3992,15 +3989,15 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"\"~//Library/Developer/Xcode/DerivedData/ImageProcessing-bgilinsewqitqlgbamvpdnmqvpiq\"",
 					"/Build/Products/Debug-iphoneos/include/**",
 				);
 				INFOPLIST_FILE = "iCurate Crush/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ImageProcessing-bgilinsewqitqlgbamvpdnmqvpiq/Build/Products/Release-iphoneos",
+					"$(PROJECT_DIR)/Libraries/opencvlib",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = PicCrush;
 				PROVISIONING_PROFILE = "c563c3b9-2b42-48af-bb69-4f7be920698d";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -4018,24 +4015,21 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ComputerVision-bnooazbacpictmdpzfapoovegtac/Build/Products/Debug-iphoneuniversal",
-					/Users/touchroi/Downloads,
-					/Users/touchroi/Downloads/Active/Libraries,
-					"/Users/touchroi/Downloads/parse-library-1-2",
+					"$(PROJECT_DIR)/Libraries",
 				);
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"\"~//Library/Developer/Xcode/DerivedData/ImageProcessing-bgilinsewqitqlgbamvpdnmqvpiq\"",
 					"/Build/Products/Debug-iphoneos/include/**",
 				);
 				INFOPLIST_FILE = "iCurate Crush/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ImageProcessing-bgilinsewqitqlgbamvpdnmqvpiq/Build/Products/Release-iphoneos",
+					"$(PROJECT_DIR)/Libraries/opencvlib",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = PicCrush;
 				PROVISIONING_PROFILE = "c563c3b9-2b42-48af-bb69-4f7be920698d";
 				TARGETED_DEVICE_FAMILY = 1;
