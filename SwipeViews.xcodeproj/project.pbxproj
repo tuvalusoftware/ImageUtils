@@ -30,7 +30,6 @@
 		1238F03E1A5755CC00673C2B /* PhotoUtils.h in Sources */ = {isa = PBXBuildFile; fileRef = 12EE2F051A4DF1AB0073154C /* PhotoUtils.h */; };
 		1238F03F1A5755CC00673C2B /* UIColor+JFMinimalNotificationColors.h in Sources */ = {isa = PBXBuildFile; fileRef = 12EE335A1A537D3F0073154C /* UIColor+JFMinimalNotificationColors.h */; };
 		1238F0401A5755CC00673C2B /* NSDate+Calc.h in Sources */ = {isa = PBXBuildFile; fileRef = 12EE2F4E1A4DF3EA0073154C /* NSDate+Calc.h */; };
-		1238F0411A5755CC00673C2B /* UIColor+BFPaperColors.h in Sources */ = {isa = PBXBuildFile; fileRef = 12EE344F1A53B9C70073154C /* UIColor+BFPaperColors.h */; };
 		1238F0421A5755CC00673C2B /* UIImage+Resize.h in Sources */ = {isa = PBXBuildFile; fileRef = 12EE2F011A4DF19A0073154C /* UIImage+Resize.h */; };
 		1238F0431A5755CC00673C2B /* PHAsset+AssetUtil.h in Sources */ = {isa = PBXBuildFile; fileRef = 12EE2EFC1A4DF1880073154C /* PHAsset+AssetUtil.h */; };
 		1238F0441A5755CC00673C2B /* FileDeleteProtocol.h in Sources */ = {isa = PBXBuildFile; fileRef = 12EE2EF91A4DF1610073154C /* FileDeleteProtocol.h */; };
@@ -72,7 +71,6 @@
 		1238F0691A57577B00673C2B /* SwipePickBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EE2F451A4DF2AE0073154C /* SwipePickBaseController.m */; };
 		1238F06A1A57578A00673C2B /* ZLPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EE2F541A4DF43B0073154C /* ZLPanGestureRecognizer.m */; };
 		1238F06C1A577A2600673C2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1238F06B1A577A2600673C2B /* Main.storyboard */; };
-		1238F06D1A577AA500673C2B /* UIColor+BFPaperColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EE34501A53B9C70073154C /* UIColor+BFPaperColors.m */; };
 		1238F06E1A577AA900673C2B /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EE2F021A4DF19A0073154C /* UIImage+Resize.m */; };
 		1238F06F1A577AB100673C2B /* PHAsset+AssetUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EE2EFD1A4DF1880073154C /* PHAsset+AssetUtil.m */; };
 		1238F0701A577AB500673C2B /* NSDate+Calc.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EE2F4F1A4DF3EA0073154C /* NSDate+Calc.m */; };
@@ -698,12 +696,6 @@
 		12EE344C1A53B1480073154C /* ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 12EE344A1A53B1480073154C /* ViewController.h */; };
 		12EE344E1A53B1480073154C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EE344B1A53B1480073154C /* ViewController.m */; };
 		12EE34511A53B9C70073154C /* UIColor+BFPaperColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 12EE344F1A53B9C70073154C /* UIColor+BFPaperColors.h */; };
-		12EE34521A53B9C70073154C /* UIColor+BFPaperColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EE34501A53B9C70073154C /* UIColor+BFPaperColors.m */; };
-		12EE34531A53B9C70073154C /* UIColor+BFPaperColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EE34501A53B9C70073154C /* UIColor+BFPaperColors.m */; };
-		12EE34541A53B9C70073154C /* UIColor+BFPaperColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EE34501A53B9C70073154C /* UIColor+BFPaperColors.m */; };
-		12EE34551A53B9C70073154C /* UIColor+BFPaperColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EE34501A53B9C70073154C /* UIColor+BFPaperColors.m */; };
-		12EE34561A53B9C70073154C /* UIColor+BFPaperColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EE34501A53B9C70073154C /* UIColor+BFPaperColors.m */; };
-		12EE34571A53B9C70073154C /* UIColor+BFPaperColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EE34501A53B9C70073154C /* UIColor+BFPaperColors.m */; };
 		12FA42FA1A579EE30097AE07 /* TVSSwipPickControllerClean.h in Sources */ = {isa = PBXBuildFile; fileRef = 12EE31441A4F5CA40073154C /* TVSSwipPickControllerClean.h */; };
 		12FA42FB1A57A0390097AE07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EE30B81A4E812B0073154C /* main.m */; };
 		12FA43001A57A76E0097AE07 /* screenshot5.png in Resources */ = {isa = PBXBuildFile; fileRef = 12FA42FF1A57A76E0097AE07 /* screenshot5.png */; };
@@ -2997,7 +2989,6 @@
 				1238F06E1A577AA900673C2B /* UIImage+Resize.m in Sources */,
 				1238F0701A577AB500673C2B /* NSDate+Calc.m in Sources */,
 				1238F06A1A57578A00673C2B /* ZLPanGestureRecognizer.m in Sources */,
-				1238F0411A5755CC00673C2B /* UIColor+BFPaperColors.h in Sources */,
 				12FA43111A58C76D0097AE07 /* AAPLAssetGridViewController.m in Sources */,
 				1238F0421A5755CC00673C2B /* UIImage+Resize.h in Sources */,
 				12FA43121A58C7710097AE07 /* AAPLAssetViewController.m in Sources */,
@@ -3012,7 +3003,6 @@
 				1238F0471A5755CC00673C2B /* DropDownListView.h in Sources */,
 				1238F0481A5755CC00673C2B /* DropDownViewCell.h in Sources */,
 				1238F0611A57571200673C2B /* CardView.m in Sources */,
-				1238F06D1A577AA500673C2B /* UIColor+BFPaperColors.m in Sources */,
 				1238F0491A5755CC00673C2B /* ZLPanGestureRecognizer.h in Sources */,
 				1238F0601A5756FA00673C2B /* TVSSwipPickControllerFinish.m in Sources */,
 				1238F0591A57569900673C2B /* CleanController.m in Sources */,
@@ -3053,7 +3043,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				12FA42FA1A579EE30097AE07 /* TVSSwipPickControllerClean.h in Sources */,
-				12EE34521A53B9C70073154C /* UIColor+BFPaperColors.m in Sources */,
 				121139781B01B20300083190 /* UIColor+BFPaperColors.m in Sources */,
 				12EE32391A508A300073154C /* TVSSwipPickControllerFinish.m in Sources */,
 				12EE32BD1A52354E0073154C /* UnfavPhotos.m in Sources */,
@@ -3132,7 +3121,6 @@
 				12EE308E1A4E7A3D0073154C /* MBProgressHUD.m in Sources */,
 				12EE308F1A4E7A3D0073154C /* TWMessageBarManager.m in Sources */,
 				12EE31901A4F63450073154C /* AAPLGridViewCell.m in Sources */,
-				12EE34531A53B9C70073154C /* UIColor+BFPaperColors.m in Sources */,
 				12EE30901A4E7A3D0073154C /* TWMesssageBarDemoController.m in Sources */,
 				12EE31711A4F62B20073154C /* GridViewController.m in Sources */,
 				12EE30911A4E7A3D0073154C /* SwipeCoverController.m in Sources */,
@@ -3181,7 +3169,6 @@
 				12EE31851A4F63450073154C /* AAPLAssetViewController.m in Sources */,
 				12EE335F1A537D3F0073154C /* UIColor+JFMinimalNotificationColors.m in Sources */,
 				12EE30A91A4E7EC50073154C /* NSDate+Calc.m in Sources */,
-				12EE34541A53B9C70073154C /* UIColor+BFPaperColors.m in Sources */,
 				12EE30AA1A4E7EC50073154C /* UIImage+Resize.m in Sources */,
 				12EE30AB1A4E7EC50073154C /* PHAsset+AssetUtil.m in Sources */,
 				12EE344E1A53B1480073154C /* ViewController.m in Sources */,
@@ -3272,7 +3259,6 @@
 				12EE30EC1A4E81D10073154C /* SwipePickBaseController.m in Sources */,
 				12EE30BF1A4E812B0073154C /* FavoriteController.m in Sources */,
 				12EE30BC1A4E812B0073154C /* AppDelegate.m in Sources */,
-				12EE34551A53B9C70073154C /* UIColor+BFPaperColors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3320,7 +3306,6 @@
 				12EE32E91A5241F40073154C /* TVSSwipPickControllerConfirm.h in Sources */,
 				12EE32EA1A5241F40073154C /* TVSSwipPickControllerClean.h in Sources */,
 				12EE32EB1A5241F40073154C /* TVSStartWithDropdown.h in Sources */,
-				12EE34561A53B9C70073154C /* UIColor+BFPaperColors.m in Sources */,
 				12EE32EC1A5241F40073154C /* TVSSwipPickControllerFinish.h in Sources */,
 				12EE32ED1A5241F40073154C /* SwipePickBaseController.h in Sources */,
 				12EE32EE1A5241F40073154C /* SwipeViews.h in Sources */,
@@ -3440,7 +3425,6 @@
 				12EE32D41A5241860073154C /* TVSSwipPickControllerConfirm.m in Sources */,
 				12EE331B1A5339690073154C /* ZLSwipeableView.m in Sources */,
 				1211397C1B01B20300083190 /* UIColor+BFPaperColors.m in Sources */,
-				12EE34571A53B9C70073154C /* UIColor+BFPaperColors.m in Sources */,
 				12EE32D51A5241860073154C /* TVSSwipPickControllerClean.m in Sources */,
 				12EE32D61A5241860073154C /* TVSStartWithDropdown.m in Sources */,
 				12EE32D71A5241860073154C /* TVSSwipPickControllerFinish.m in Sources */,
