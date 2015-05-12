@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		121139771B01B20300083190 /* UIColor+BFPaperColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 121139751B01B20300083190 /* UIColor+BFPaperColors.h */; };
+		121139781B01B20300083190 /* UIColor+BFPaperColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 121139761B01B20300083190 /* UIColor+BFPaperColors.m */; };
+		121139791B01B20300083190 /* UIColor+BFPaperColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 121139761B01B20300083190 /* UIColor+BFPaperColors.m */; };
+		1211397A1B01B20300083190 /* UIColor+BFPaperColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 121139761B01B20300083190 /* UIColor+BFPaperColors.m */; };
+		1211397B1B01B20300083190 /* UIColor+BFPaperColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 121139761B01B20300083190 /* UIColor+BFPaperColors.m */; };
+		1211397C1B01B20300083190 /* UIColor+BFPaperColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 121139761B01B20300083190 /* UIColor+BFPaperColors.m */; };
+		1211397D1B01B20300083190 /* UIColor+BFPaperColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 121139761B01B20300083190 /* UIColor+BFPaperColors.m */; };
 		1238F0131A57545A00673C2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1238F0121A57545A00673C2B /* main.m */; };
 		1238F0161A57545A00673C2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1238F0151A57545A00673C2B /* AppDelegate.m */; };
 		1238F0191A57545A00673C2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1238F0181A57545A00673C2B /* ViewController.m */; };
@@ -852,6 +859,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		121139751B01B20300083190 /* UIColor+BFPaperColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BFPaperColors.h"; sourceTree = "<group>"; };
+		121139761B01B20300083190 /* UIColor+BFPaperColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BFPaperColors.m"; sourceTree = "<group>"; };
 		1238F00E1A57545A00673C2B /* PickScrub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickScrub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1238F0111A57545A00673C2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1238F0121A57545A00673C2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -1319,6 +1328,8 @@
 				1258D27C1A55F857002A0B60 /* ParseUI.framework */,
 				1258D2731A548362002A0B60 /* Localizable.strings */,
 				12EE34441A53AC480073154C /* libc++.dylib */,
+				121139751B01B20300083190 /* UIColor+BFPaperColors.h */,
+				121139761B01B20300083190 /* UIColor+BFPaperColors.m */,
 				12EE343B1A53A5100073154C /* opencv2.framework */,
 				12EE2EAD1A4DEBFB0073154C /* SwipeViews */,
 				12EE2EBA1A4DEBFB0073154C /* SwipeViewsTests */,
@@ -2167,6 +2178,7 @@
 				12EE2EF81A4DF1540073154C /* FileInfoProtocol.h in Headers */,
 				12EE32271A4F87860073154C /* TVSSwipPickControllerConfirm.h in Headers */,
 				12EE2EE81A4DED6F0073154C /* SwipeCoverController.h in Headers */,
+				121139771B01B20300083190 /* UIColor+BFPaperColors.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2972,6 +2984,7 @@
 				12FA43121A58C7710097AE07 /* AAPLAssetViewController.m in Sources */,
 				1238F06F1A577AB100673C2B /* PHAsset+AssetUtil.m in Sources */,
 				1238F05F1A5756F400673C2B /* TVSStartWithDropdown.m in Sources */,
+				1211397D1B01B20300083190 /* UIColor+BFPaperColors.m in Sources */,
 				1238F0431A5755CC00673C2B /* PHAsset+AssetUtil.h in Sources */,
 				1238F0441A5755CC00673C2B /* FileDeleteProtocol.h in Sources */,
 				1238F0451A5755CC00673C2B /* FileInfoProtocol.h in Sources */,
@@ -3022,6 +3035,7 @@
 			files = (
 				12FA42FA1A579EE30097AE07 /* TVSSwipPickControllerClean.h in Sources */,
 				12EE34521A53B9C70073154C /* UIColor+BFPaperColors.m in Sources */,
+				121139781B01B20300083190 /* UIColor+BFPaperColors.m in Sources */,
 				12EE32391A508A300073154C /* TVSSwipPickControllerFinish.m in Sources */,
 				12EE32BD1A52354E0073154C /* UnfavPhotos.m in Sources */,
 				12EE2EF21A4DEE320073154C /* TWMessageBarManager.m in Sources */,
@@ -3173,6 +3187,7 @@
 				12EE318B1A4F63450073154C /* AAPLAssetGridViewController.m in Sources */,
 				12EE334D1A53721E0073154C /* CrushControllerFinish.m in Sources */,
 				12EE30A21A4E7E800073154C /* TWMesssageBarDemoController.m in Sources */,
+				121139791B01B20300083190 /* UIColor+BFPaperColors.m in Sources */,
 				12EE30A31A4E7E800073154C /* SwipeCoverController.m in Sources */,
 				12EE30A41A4E7E800073154C /* TVSStartWithDropdown.m in Sources */,
 				12EE30A51A4E7E800073154C /* TVSSwipPickControllerStart.m in Sources */,
@@ -3203,6 +3218,7 @@
 				12EE30DA1A4E81D10073154C /* GlobalManager.m in Sources */,
 				12EE31861A4F63450073154C /* AAPLAssetViewController.m in Sources */,
 				12EE30DB1A4E81D10073154C /* PhotoUtils.m in Sources */,
+				1211397A1B01B20300083190 /* UIColor+BFPaperColors.m in Sources */,
 				12EE30DC1A4E81D10073154C /* NSDate+Calc.m in Sources */,
 				12EE30DD1A4E81D10073154C /* UIImage+Resize.m in Sources */,
 				12EE30DE1A4E81D10073154C /* PHAsset+AssetUtil.m in Sources */,
@@ -3253,6 +3269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1211397B1B01B20300083190 /* UIColor+BFPaperColors.m in Sources */,
 				12EE331C1A5339A70073154C /* GridViewController.h in Sources */,
 				12EE331D1A5339A80073154C /* StringConstants.h in Sources */,
 				12EE331E1A5339A80073154C /* DropDownListView.h in Sources */,
@@ -3403,6 +3420,7 @@
 				1258D2A51A571815002A0B60 /* ViewPermissionControllerBase.m in Sources */,
 				12EE32D41A5241860073154C /* TVSSwipPickControllerConfirm.m in Sources */,
 				12EE331B1A5339690073154C /* ZLSwipeableView.m in Sources */,
+				1211397C1B01B20300083190 /* UIColor+BFPaperColors.m in Sources */,
 				12EE34571A53B9C70073154C /* UIColor+BFPaperColors.m in Sources */,
 				12EE32D51A5241860073154C /* TVSSwipPickControllerClean.m in Sources */,
 				12EE32D61A5241860073154C /* TVSStartWithDropdown.m in Sources */,
