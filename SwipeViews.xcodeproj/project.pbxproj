@@ -124,7 +124,6 @@
 		1258D2A41A571815002A0B60 /* ViewPermissionControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1258D29F1A571815002A0B60 /* ViewPermissionControllerBase.m */; };
 		1258D2A51A571815002A0B60 /* ViewPermissionControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1258D29F1A571815002A0B60 /* ViewPermissionControllerBase.m */; };
 		12DC756B1B01AC260047FFF3 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12DC756A1B01AC260047FFF3 /* opencv2.framework */; };
-		12DC756D1B01AC550047FFF3 /* libImageProcessing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12DC756C1B01AC550047FFF3 /* libImageProcessing.a */; };
 		12EE2EB11A4DEBFB0073154C /* SwipeViews.h in Headers */ = {isa = PBXBuildFile; fileRef = 12EE2EB01A4DEBFB0073154C /* SwipeViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		12EE2EB71A4DEBFB0073154C /* SwipeViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EE2EAB1A4DEBFB0073154C /* SwipeViews.framework */; };
 		12EE2EBE1A4DEBFB0073154C /* SwipeViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EE2EBD1A4DEBFB0073154C /* SwipeViewsTests.m */; };
@@ -782,6 +781,7 @@
 		12FA43581A58C8B70097AE07 /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 12EE2EDD1A4DED060073154C /* checkmark.png */; };
 		12FA435A1A5A153E0097AE07 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 12FA43591A5A153E0097AE07 /* screenshot.png */; };
 		12FA435C1A5A20450097AE07 /* screenshot_unlike.png in Resources */ = {isa = PBXBuildFile; fileRef = 12FA435B1A5A20450097AE07 /* screenshot_unlike.png */; };
+		A71187DB1B01B8B50098229D /* libImageProcessing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12DC756C1B01AC550047FFF3 /* libImageProcessing.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1137,7 +1137,6 @@
 		12EE33491A5364190073154C /* CrushControllerFinish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrushControllerFinish.m; sourceTree = "<group>"; };
 		12EE335A1A537D3F0073154C /* UIColor+JFMinimalNotificationColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JFMinimalNotificationColors.h"; sourceTree = "<group>"; };
 		12EE335B1A537D3F0073154C /* UIColor+JFMinimalNotificationColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JFMinimalNotificationColors.m"; sourceTree = "<group>"; };
-		12EE343B1A53A5100073154C /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../Libraries/opencv2.framework; sourceTree = "<group>"; };
 		12EE34401A53A5FD0073154C /* ImageProcessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageProcessing.h; sourceTree = "<group>"; };
 		12EE34441A53AC480073154C /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		12EE344A1A53B1480073154C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -1206,7 +1205,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12DC756D1B01AC550047FFF3 /* libImageProcessing.a in Frameworks */,
+				A71187DB1B01B8B50098229D /* libImageProcessing.a in Frameworks */,
 				12DC756B1B01AC260047FFF3 /* opencv2.framework in Frameworks */,
 				12EE34451A53AC480073154C /* libc++.dylib in Frameworks */,
 			);
@@ -1341,7 +1340,6 @@
 				121139751B01B20300083190 /* UIColor+BFPaperColors.h */,
 				125277C01B01B57600CECB1F /* parse-library */,
 				121139761B01B20300083190 /* UIColor+BFPaperColors.m */,
-				12EE343B1A53A5100073154C /* opencv2.framework */,
 				12EE2EAD1A4DEBFB0073154C /* SwipeViews */,
 				12EE2EBA1A4DEBFB0073154C /* SwipeViewsTests */,
 				12EE303A1A4E78A50073154C /* iCurate Crush */,
